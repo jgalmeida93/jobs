@@ -14,6 +14,12 @@ Abra [http://localhost:3000](http://localhost:3000) para visualizá-lo no seu br
 
 ---
 
+## Sugestões de alteração no layout:
+
+Gostei bastante de replicar o layout proposto e creio que um modo dark e uma navbar no topo agregaria bastante para o layout.
+
+---
+
 ## Bibliotecas utilizadas
 
 [React Bootstrap](https://react-bootstrap.github.io/)
