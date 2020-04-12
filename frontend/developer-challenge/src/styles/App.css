@@ -1,0 +1,170 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;1,300;1,600&display=swap");
+
+html {
+  overflow-x: hidden;
+}
+/* FONTES */
+.headerFont {
+  font-family: "Open Sans", sans-serif;
+  font-style: italic;
+}
+
+.f-2x {
+  font-size: 2.8em;
+}
+.f-1x {
+  font-size: 1.4em;
+}
+
+.f-3x {
+  font-size: 3.1em;
+}
+
+.f-4x {
+  font-size: 4.5em;
+}
+
+.bold {
+  font-weight: 600;
+}
+
+.fontBoldItalic {
+  font-family: "Open Sans", sans-serif;
+  font-style: italic;
+  font-weight: 600;
+}
+
+.fontNormalItalic {
+  font-family: "Open Sans", sans-serif;
+  font-style: italic;
+  font-weight: 300;
+}
+
+.fontBold {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+}
+
+/* FIM FONTES */
+
+/* Cores */
+
+.sabionRoxo {
+  color: #7400fb;
+}
+
+.sabionAmarelo {
+  color: #fdc500;
+}
+
+.sabionRoxoBtn {
+  background-color: #7400fb;
+  border: none;
+  color: white;
+  padding: 5px 40px;
+  border-radius: 4%;
+}
+
+/* Fim Cores */
+
+/* Margin */
+.margin-top {
+  margin-top: 10rem;
+}
+
+.margin-bot {
+  margin-bottom: 10rem;
+}
+/* Fim Margin */
+
+/* Sobre */
+
+.horizontalDecorator {
+  display: block;
+  width: 5%;
+  background-color: #fdc500;
+  height: 5px;
+  border-radius: 2px;
+}
+
+.background-sabion {
+  background: linear-gradient(to right, #7400fb 65%, #fff 35%);
+  height: 500px;
+}
+
+.bg-white {
+  background-color: #fff;
+  width: calc(100vw - 50vw);
+  border-radius: 4%;
+}
+
+.background-form {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 8px;
+  max-width: 400px;
+}
+
+.text-help {
+  text-align: right;
+}
+
+.subText-help {
+  text-align: right;
+}
+
+@media (max-width: 991px) {
+  .header-text {
+    text-align: center;
+  }
+  .header-subText {
+    text-align: center;
+  }
+  .img-header {
+    width: 350px;
+    margin-top: 2em;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+  .background-sabion {
+    background: linear-gradient(to right, #7400fb 65%, #7400fb 35%);
+    height: 500px;
+  }
+  .text-help {
+    text-align: center;
+  }
+  .subText-help {
+    text-align: center;
+    margin-top: 2em;
+  }
+  .formSabion {
+    display: block;
+    margin: 0 auto;
+  }
+  .footerSabion {
+    padding-top: 8em;
+  }
+  .sabionLogoFooter {
+    margin-top: 1em;
+    width: 35px;
+  }
+  .logoHeaderSabion {
+    width: 100px;
+  }
+}
+
+@media (max-width: 768px) {
+  .filter-button {
+    display: block;
+    margin-top: 1em;
+  }
+  .sabionLogoFooter {
+    margin-top: 5em;
+    width: 35px;
+  }
+  .developerText {
+    font-size: 2.5em;
+  }
+}
